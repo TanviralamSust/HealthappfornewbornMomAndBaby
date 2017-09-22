@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/theme"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/foodback"
+            android:scaleType="centerCrop"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="বিভিন্ন বয়সে শিশুর খাবার ঃ"
+            android:textSize="26dp"
+            android:layout_margin="20dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="৬ মাস পর্যন্ত ঃ"
+            android:textSize="26dp"
+            android:layout_margin="16dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="# কেবল মায়ের দুধ( যত বার খেতে চাইবে তত বার )\n# আর কোন খাবার বা পানীয় খাওয়ানো নিষেধ"
+            android:textSize="16dp"
+            android:layout_margin="10dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="৬ থেকে ১২ মাস পর্যন্ত ঃ"
+            android:textSize="26dp"
+            android:layout_margin="16dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="# মায়ের বুকের দুধ\n# পরিপূরক খাবার হিসেবে সাথে পরিমাণ মত ডাল-ভাত,খিচুড়ি,হালুয়া,ডিম,মাছ,মুরগীর মাওংস,সবুজ শাক,হলুদ ফল যেমন কলা, পেপে, পাকা আম ও কাঠাল দেয়া উচিৎ\n# বুকের দুধ খেলে এই খাবার দৈনিক ৩ বার ও না খেলে ৫ বার খাওয়ানো উচিৎ"
+            android:textSize="16dp"
+            android:layout_margin="10dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="১২ মাস থেকে ২ বছর পর্যন্ত ঃ"
+            android:textSize="26dp"
+            android:layout_margin="16dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="# মায়ের বুকের দুধ\n# পরিপূরক খাবার হিসেবে সাথে পরিমাণ মত ডাল-ভাত,খিচুড়ি,হালুয়া,ডিম,মাছ,মুরগীর মাওংস,সবুজ শাক,হলুদ ফল যেমন কলা, পেপে, পাকা আম ও কাঠাল দৈনিক ৫ বার দেয়া উচিৎ"
+            android:textSize="16dp"
+            android:layout_margin="10dp"/>
+        <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="২ বছর ও তার বড় শিশুদের জন্য  ঃ"
+        android:textSize="26dp"
+        android:layout_margin="16dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="# ঘরোয়া খাবার দৈনিক ৩বার খাওয়ানো উচিৎ\n# আরো পুষ্টিকর খাবার যেমন তেলে ভাজা ভাত, পোলাও, রুটি, বিস্কুট খাওয়াতে হবে"
+            android:textSize="16dp"
+            android:layout_margin="10dp"/>
+    </LinearLayout>
+</ScrollView>

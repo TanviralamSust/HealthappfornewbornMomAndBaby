@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/theme"
+    tools:context=".BabyfullFo.EmergencyHelpActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:weightSum="18"
+            >
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="30dp"
+                android:text="Emergency Helpline"
+                android:layout_gravity="center_horizontal|top"
+                android:textColor="#000000"
+                android:textStyle="italic|bold"/>
+            <Button
+                android:layout_width="220dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Dhaka Div"
+                android:layout_margin="15dp"
+                android:layout_weight="1"
+                android:onClick="dhakadiv"
+                android:background="@drawable/info_button"/>
+            <Button
+                android:layout_width="220dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:text="Chittagong Div"
+                android:layout_margin="15dp"
+                android:onClick="chittagongdiv"
+                android:background="@drawable/info_button"/>
+            <Button
+                android:layout_width="220dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Barishal Div"
+                android:layout_weight="1"
+                android:layout_margin="15dp"
+                android:onClick="barishaldiv"
+                android:background="@drawable/info_button"/>
+            <Button
+                android:layout_width="220dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Sylhet Div"
+                android:layout_weight="1"
+                android:layout_margin="15dp"
+                android:onClick="sylhetdiv"
+                android:background="@drawable/info_button"/>
+            <Button
+                android:layout_width="220dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="15dp"
+                android:text="Rajshahi Div"
+                android:layout_weight="1"
+                android:onClick="rajshahidiv"
+                android:background="@drawable/info_button"/>
+            <Button
+                android:layout_width="220dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:text="Khulna div"
+                android:layout_weight="1"
+                android:onClick="khulnadiv"
+                android:background="@drawable/info_button"/>
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

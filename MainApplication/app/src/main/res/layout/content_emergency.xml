@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/theme"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".BabyfullFo.FoodActivity$EmergencyActivity"
+    tools:showIn="@layout/activity_emergency">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:weightSum="18"
+            >
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="30dp"
+                android:text="Emergency Helpline"
+                android:layout_gravity="center_horizontal|top"
+                android:textColor="#000000"
+                android:textStyle="bold"/>
+            <Button
+                android:layout_width="220dp"
+                android:layout_marginTop="40dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Dhaka Div"
+
+                android:layout_weight="1"
+                android:onClick="dhakadiv"
+                android:textColor="#FFFFFF"
+                android:background="@drawable/button2"/>
+            <Button
+                android:layout_width="220dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:text="Chittagong Div"
+                android:layout_marginTop="15dp"
+                android:onClick="chittagongdiv"
+                android:textColor="#FFFFFF"
+                android:background="@drawable/button2"/>
+            <Button
+                android:layout_width="220dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Barishal Div"
+                android:layout_weight="1"
+                android:layout_marginTop="15dp"
+                android:onClick="barishaldiv"
+                android:textColor="#FFFFFF"
+                android:background="@drawable/button2"/>
+            <Button
+                android:layout_width="220dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Sylhet Div"
+                android:layout_weight="1"
+                android:layout_marginTop="15dp"
+                android:onClick="sylhetdiv"
+                android:textColor="#FFFFFF"
+                android:background="@drawable/button2"/>
+            <Button
+                android:layout_width="220dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:text="Rajshahi Div"
+                android:layout_weight="1"
+                android:onClick="rajshahidiv"
+                android:textColor="#FFFFFF"
+                android:background="@drawable/button2"/>
+            <Button
+                android:layout_width="220dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:text="Khulna div"
+                android:layout_weight="1"
+                android:onClick="khulnadiv"
+                android:textColor="#FFFFFF"
+                android:background="@drawable/button2"/>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.mainapplication.BabyfullFo.OnlyMomsCare">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/theme">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/foodback"
+                android:scaleType="centerCrop"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="মায়েদের টিকা"
+                android:textSize="26dp"
+                android:layout_margin="20dp"
+                android:textColor="#000000"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="# হবু মায়েদের টিকা নিতে হবে যাতে শিশুদের ধনুষ্টংকার নষ্ট না হয়।"
+                android:textSize="20dp"
+                android:layout_margin="10dp"
+                android:textColor="#000000"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="# যদি আগে কোন টিকা নেয়া না থাকে তাহলে সব গুলোই নিতে হবে।"
+                android:textSize="20dp"
+                android:layout_margin="16dp"
+                android:textColor="#000000"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="# ১৮ থেকে ৪৯ বয়সী মহিলাদের গর্ভ  ধারণের আগেই ৫টি টিটি ডোজ নিতে হবে।"
+                android:textSize="20dp"
+                android:layout_margin="10dp"
+                android:textColor="#000000"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="# ১মটির ১ মাস পর ২য়টি,তার ১ মাস পর ৩য়টি,তারও ৬ মাস পর চতুর্থটি,ও শেষ ডোজটি টার ১ বছর পর দিতে হয়।"
+                android:textSize="20dp"
+                android:layout_margin="10dp"
+                android:textColor="#000000"/>
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

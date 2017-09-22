@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/baby_info1"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.android.mainapplication.BabyfullFo.TikaInfoActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:weightSum="18"
+            >
+            <TextView
+                android:layout_marginTop="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="30dp"
+                android:text="Tika InFo"
+                android:layout_gravity="center_horizontal|top"
+                android:textColor="#273746"
+                android:textStyle="italic|bold"/>
+            <Button
+                android:layout_width="220dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text=" বিসিজি টিকা"
+                android:layout_margin="20dp"
+                android:layout_weight="1"
+                android:onClick="bCg"
+                android:background="@drawable/info_button"/>
+            <Button
+                android:layout_width="220dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:text="পোলিও টিকা"
+                android:layout_margin="20dp"
+                android:onClick="polioTika"
+                android:background="@drawable/info_button"/>
+            <Button
+                android:layout_width="220dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="হেপাটাইটিস বি ও হিব টিকা"
+                android:layout_weight="1"
+                android:layout_margin="20dp"
+                android:onClick="heptaitisB"
+                android:background="@drawable/info_button"/>
+            <Button
+                android:layout_width="220dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="20dp"
+                android:text="ইনফ্লুয়েঞ্জা টিকা"
+                android:layout_weight="1"
+                android:onClick="influenza"
+                android:background="@drawable/info_button"/>
+            <Button
+                android:layout_width="220dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="20dp"
+                android:text="জলবসন্ত টিকা"
+                android:layout_weight="1"
+                android:onClick="jolobosto"
+                android:background="@drawable/info_button"/>
+            <Button
+                android:layout_width="220dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="20dp"
+                android:text="এম এম আর টিকা"
+                android:layout_weight="1"
+                android:onClick="mmrtika"
+                android:background="@drawable/info_button"/>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

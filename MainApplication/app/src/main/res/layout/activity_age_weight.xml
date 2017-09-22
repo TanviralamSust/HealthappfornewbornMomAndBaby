@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/theme">
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:text="Weight Monitoring"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#082567"
+        android:textStyle="italic"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="50dp"
+        android:inputType="numberDecimal"
+        android:hint="Enter Age in month"
+        android:id="@+id/agewi"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_marginTop="100dp"
+        android:layout_height="80dp"
+        android:inputType="numberDecimal"
+        android:hint="Enter Weight in KG"
+        android:id="@+id/agewikg"
+        />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:text="OK"
+        android:id="@+id/agewibtn"
+        android:background="@drawable/info_button"
+        android:textSize="20sp"
+        android:layout_below="@+id/agewikg"
+        android:layout_centerHorizontal="true" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/info_button"
+        android:text="check previous result"
+        android:layout_marginTop="300dp"
+        android:id="@+id/button2"
+        android:onClick="previous" />
+
+
+
+</RelativeLayout>
